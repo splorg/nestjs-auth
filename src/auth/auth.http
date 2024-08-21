@@ -1,0 +1,39 @@
+### signup
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "test@email.com",
+  "password": "test123",
+  "roles": ["admin"]
+}
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@email.com",
+  "password": "test123",
+  "roles": ["user"]
+}
+
+### signin
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "email": "test@email.com",
+  "password": "test123"
+}
+
+### 
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "email": "user@email.com",
+  "password": "test123"
+}

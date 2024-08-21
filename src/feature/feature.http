@@ -1,0 +1,10 @@
+### public
+GET http://localhost:3000/feature/public
+
+### private
+GET http://localhost:3000/feature/private
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RAZW1haWwuY29tIiwic3ViIjoxLCJpYXQiOjE3MjQxOTk4MTYsImV4cCI6MTcyNDE5OTg3Nn0.hbyXuItHFLdNLZjdUE0E2scUtucbkqBXBkrzKuNKa20
+
+### admin
+GET http://localhost:3000/feature/admin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJAZW1haWwuY29tIiwic3ViIjoyLCJyb2xlcyI6WyJ1c2VyIl0sImlhdCI6MTcyNDIwMTMwMSwiZXhwIjoxNzI0MjAxMzYxfQ.kjZEe_JRgoT0DEcUPel4hkK1oqfXx-AK3S7yBQmpN8Q
